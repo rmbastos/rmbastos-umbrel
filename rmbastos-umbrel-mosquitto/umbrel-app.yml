@@ -1,6 +1,6 @@
 manifestVersion: 1
-id: mosquitto
-name: mosquitto mqtt briker
+id: rmbastos-umbrel-mosquitto
+name: mosquitto mqtt broker
 tagline: Replace this tagline with your app's tagline
 icon: https://www.ivankrizsan.se/wp-content/uploads/2022/02/mqtt-logo.png
 category: Development
