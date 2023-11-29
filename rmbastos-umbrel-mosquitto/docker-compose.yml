@@ -5,13 +5,13 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: Eclipse-Mosquitoo
+      APP_HOST: Eclipse-Mosquitto
       APP_PORT: 1883
     
   server:
     image: eclipse-mosquitto:latest
     #to run as non root
-    user: "1000:1000"
+#    user: "1000:1000"
     restart: on-failure
 #    network_mode: host
     volumes:
